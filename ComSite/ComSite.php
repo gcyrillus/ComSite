@@ -77,7 +77,7 @@ class ComSite extends plxPlugin {
                 if ($count > $max) break;
             }
         }
-        exit;
+        exit; // on stoppe  la fonction ici , le job est fait.
 <?php
 		echo self::END_CODE;
         
