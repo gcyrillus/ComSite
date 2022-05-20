@@ -6,5 +6,5 @@
     <date>19/05/2022</date>
     <site>http://re7net.com</site>
     <description><![CDATA[Ajoute coté front la possibilité d'afficher le lien du site du commentateur dans les commentaires.]]></description>
-    <scope></scope>
+    <scope>site</scope>
 </document>
