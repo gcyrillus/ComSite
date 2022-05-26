@@ -1,0 +1,11 @@
+.authComLink {
+  float: inline-end;
+  margin-top: 0.2rem;
+  text-decoration: underline
+}
+cite {
+  color: tomato;
+}
+p cite::before {
+  color: gray;
+}
