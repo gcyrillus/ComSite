@@ -15,4 +15,4 @@ Exemple d'usage dans la sidebar
 ```
 <table><tr><td>Ce qui donne un visuel 
 	<br>dans le thème par défaut 
-	<br>ressemblant à  :</td><td> <img src="https://github.com/gcyrillus/ComSite/blob/main/ComSite.jpg"></td></tr></table>
+	<br>ressemblant à  :</td><td> <img src="https://github.com/gcyrillus/ComSite/blob/main/ComSite.jpg?1"></td></tr></table>
