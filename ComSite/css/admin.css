@@ -1,0 +1,46 @@
+#help {max-width:120ch;}
+h2,h4 {
+  text-align: center;
+  color: hotpink;
+}
+h3 {
+  color: #6AA6CE;
+  border-bottom: solid;
+  width: max-content;
+  padding-inline-end: 1.5em;
+  border-inline-end: solid transparent 6px;
+}
+p{
+  padding: 1px 1em;
+  margin:0 0 0.25em;
+  text-indent:1em;
+}
+code, pre {
+  background: ivory;
+  color:blue
+}
+
+ul[data-demo] {
+  list-style: none;
+  background: ivory;
+  width: max-content;
+  margin: 1em auto;
+  box-shadow: 0 0 3px;
+}
+ul[data-demo]:before {
+  content: 'Derniers Commentaires';
+  font-weight: bold;
+  text-indent: -2em;
+  display: block;
+}
+.authComLink {
+  float: inline-end;
+  margin-top: 0.2rem;
+  text-decoration: underline
+}
+cite {
+  color: tomato;
+}
+p cite::before {
+  color: gray;
+}
