@@ -2,9 +2,9 @@
 <document>
     <title><![CDATA[ComSite]]></title>
     <author><![CDATA[GC-nomade]]></author>
-    <version>version 0.2</version>
-    <date>19/05/2022</date>
+    <version>version 0.3</version>
+    <date>26/05/2022</date>
     <site>http://re7net.com</site>
-    <description><![CDATA[Ajoute coté front la possibilité d'afficher le lien du site du commentateur dans les commentaires.]]></description>
+    <description><![CDATA[Ajoute coté front la possibilité d'afficher le lien du site de l'auteur d'un commentaire dans la liste des "Derniers commentaires".]]></description>
     <scope>site</scope>
 </document>

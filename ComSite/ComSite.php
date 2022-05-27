@@ -45,8 +45,13 @@ class ComSite extends plxPlugin {
                             $row = str_replace('#com_id', $com['index'], $row);
                             $row = str_replace('#com_url', $this->plxMotor->urlRewrite($url), $row);
                             $row = str_replace('#com_author', $com['author'], $row);
-							if($com['site']=='') {$row = str_replace('#com_site', $com['site'].'" style="display:none;"', $row);}
-                            else {$row = str_replace('#com_site', $com['site'], $row);}
+							if($com['site']=='') {
+								$row = str_replace('#com_site', $com['site'].'" style="display:none;"', $row);								
+								}
+                            else {
+								$row = str_replace('#com_site_name', basename($com['site']), $row);
+								$row = str_replace('#com_site', $com['site'], $row);
+								}
                             while (preg_match('/#com_content\(([0-9]+)\)/', $row, $capture)) {
                                 if ($com['author'] == 'admin')
                                     $row = str_replace('#com_content(' . $capture[1] . ')', plxUtils::strCut($content, $capture[1]), $row);
