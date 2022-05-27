@@ -14,8 +14,8 @@
  &lt;b>L_SAID: &lt;/b> &lt;br>&lt;q>&lt;a href="#com_url"> #com_content(10)&lt;/a>&lt;/q>&lt;/p>&lt;/li>') ?></pre></code>
 <p>Ce qui donne un rendu similaire à </p>
 <ul data-demo>
-  <li><cite>Auteur :</cite>  <small><a href="" class="authComLink" rel= "nofollow" style="float:inline-end;">website</a></small><b>a dit: </b> <br><q><a href="">Et un deuxieme commentaire  ...</a></q></li>
-  <li><cite>Auteur :</cite>  <small><a href="" class="authComLink" rel= "nofollow" style="float:inline-end;">website</a></small><b>a dit: </b> <br><q><a href="">Debut du premier commentaire ...</a></q></li>
+  <li><p><cite>Auteur :</cite>  <small><a href="" class="authComLink" rel= "nofollow" style="float:inline-end;">website</a></small><b>a dit: </b> <br><q><a href="">Et un deuxieme commentaire  ...</a></q></p></li>
+  <li><p><cite>Auteur :</cite>  <small><a href="" class="authComLink" rel= "nofollow" style="float:inline-end;">website</a></small><b>a dit: </b> <br><q><a href="">Debut du premier commentaire ...</a></q></p></li>
 </ul>
 <p>Le fichier <code>sidebar.php</code> peut-être editer depuis l'administration si vous le souhaitez. Il est cependant préferable de faire un backup de votre thème avant de le modifier, que ce soit enn local ou en ligne.</p>
 <h4>PostFace</h4>
