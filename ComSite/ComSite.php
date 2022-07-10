@@ -81,8 +81,8 @@ class ComSite extends plxPlugin {
                 if ($count > $max) break;
             }
         }
-        $format="";
-		return true;
+        //$format="";
+	return true;
 <?php
 		echo self::END_CODE;
         
