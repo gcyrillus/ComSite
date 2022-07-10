@@ -1,20 +1,18 @@
 <?php
-class ComSite extends plxPlugin {	 
+class ComSite extends plxPlugin {
+	
 	const BEGIN_CODE = '<?php' . PHP_EOL;
 	const END_CODE = PHP_EOL . '?>';
     
-	public function __construct($default_lang) {
-
+    public function __construct($default_lang) {	
 		# appel du constructeur de la classe plxPlugin (obligatoire)
 		parent::__construct($default_lang);
 		
 		# déclaration des hooks
-		$this->addHook('plxShowLastComList', 'plxShowLastComList');
-		
-
+		$this->addHook('plxShowLastComList', 'plxShowLastComList');	
 	}	
 	public function plxShowLastComList(){ 
-			echo self::BEGIN_CODE;
+	echo self::BEGIN_CODE;
 ?>
  # Génération de notre motif
         if (empty($art_id))
@@ -84,6 +82,7 @@ class ComSite extends plxPlugin {
             }
         }
         $format="";
+		return true;
 <?php
 		echo self::END_CODE;
         
